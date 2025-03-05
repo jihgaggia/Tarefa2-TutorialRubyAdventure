@@ -8,13 +8,14 @@ public class PlayerControllerTutorialUpdates : MonoBehaviour
 {
     public InputAction MoveAction;
 
-    // Start is called before the first frame update
 
+    // Start is called before the first frame update
     void Start()
     {
-
+        
 
     }
+
 
 
     // Update is called once per frame
@@ -48,6 +49,8 @@ public class PlayerControllerTutorialUpdates : MonoBehaviour
         position.x = position.x + 0.1f * horizontal;
         position.y = position.y + 0.1f * vertical;
         transform.position = position;
+
+       
     }
 
 }

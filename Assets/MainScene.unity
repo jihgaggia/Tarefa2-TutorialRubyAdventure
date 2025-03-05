@@ -280,6 +280,30 @@ MonoBehaviour:
       m_Groups: 
       m_Action: Move
       m_Flags: 0
+    - m_Name: 
+      m_Id: 61dfee7f-ad56-4e3c-a435-2e3e527e23fe
+      m_Path: <Keyboard>/upArrow
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 18e67f4e-27aa-4cc7-b9be-97b3321c3223
+      m_Path: <Keyboard>/downArrow
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move
+      m_Flags: 0
+    - m_Name: 
+      m_Id: a16c0298-05d7-4925-83f6-fc9fc1650a1e
+      m_Path: <Keyboard>/rightArrow
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move
+      m_Flags: 0
     m_Flags: 0
 --- !u!1 &1955881776
 GameObject:
