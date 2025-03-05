@@ -12,7 +12,8 @@ public class PlayerControllerTutorialUpdates : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        QualitySettings.vSyncCount = 0;
+        Application.targetFrameRate = 10;
 
     }
 
@@ -45,12 +46,15 @@ public class PlayerControllerTutorialUpdates : MonoBehaviour
         Debug.Log(vertical);
 
 
-        Vector2 position = transform.position;
+        /*Vector2 position = transform.position;
         position.x = position.x + 0.1f * horizontal;
         position.y = position.y + 0.1f * vertical;
-        transform.position = position;
+        transform.position = position;*/
 
-       
+        Vector2 move = MoveAction.ReadValue<Vector2>();
+        Debug.Log(move);
+        Vector2 position = (Vector2)transform.position + move * 0.1f;
+        transform.position = position;
     }
 
 }
