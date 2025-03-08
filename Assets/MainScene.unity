@@ -440,6 +440,7 @@ GameObject:
   - component: {fileID: 172202197}
   - component: {fileID: 172202198}
   - component: {fileID: 172202199}
+  - component: {fileID: 172202200}
   m_Layer: 0
   m_Name: PlayerCharacter
   m_TagString: Untagged
@@ -639,6 +640,29 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.66, y: 2.4836862}
   m_EdgeRadius: 0
+--- !u!114 &172202200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 172202194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 864ccc922bc10b847ac22837edae7a4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MoveAction:
+    m_Name: Move
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: a2038156-1529-412f-9e4e-3032d90d16bc
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  speed: 3
+  maxHealth: 5
 --- !u!1 &909356584
 GameObject:
   m_ObjectHideFlags: 0
