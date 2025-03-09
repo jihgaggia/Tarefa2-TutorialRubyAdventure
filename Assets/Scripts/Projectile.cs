@@ -33,7 +33,7 @@ public class Projectile : MonoBehaviour
         EnemyController enemy = other.GetComponent<EnemyController>();
         if (enemy != null)
         {
-            enemy.Fix();
+            //enemy.Fix();
         }
 
 
