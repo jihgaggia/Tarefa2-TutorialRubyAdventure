@@ -57,6 +57,8 @@ public class PlayerControllerTutorialUpdates : MonoBehaviour
         transform.position = position;
 
 
+
+
     }
 
 }
